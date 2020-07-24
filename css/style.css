@@ -1,0 +1,24 @@
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 410px;
+}
+
+.hidden {
+  display: none;
+}
+
+#goblin {
+  width: 80px;
+  height: 80px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.cursor {
+  cursor: url('../pic/molotok5.gif'), default;
+}
